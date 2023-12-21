@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupping Tags</title>
+    <style>
+        body {
+            background-color: rgb(74, 77, 76);
+            margin: 10px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 1px;
+            margin: 10px;
+            outline: 10px solid aliceblue ;
+        }
+
+        .links {
+            background-color: rgb(104, 107, 106);
+            font-size: 2em;
+            margin: 0px 2px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.397);
+        }
+
+        a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        main{
+            background-color: aliceblue;
+            border: 5px 10px solid aliceblue;
+            padding: 1px;
+            margin: 30px;
+            outline: 10px solid aliceblue;
+            border-radius: 5px;
+        }
+
+        .notícias {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .autoria {
+            background-color: rgb(104, 107, 106);
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
+            padding: 1px;
+            margin: 10px -10px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Meu Site</h1>
+      
+      <nav class="links">
+        <a href="#">Brasil</a>
+        <a href="#">Vida Saudável</a> 
+        <a href="#">Mundo</a>
+        <a href="#">Futebol</a>
+        <a href="#">Igreja</a> 
+    </nav>
+    </header>
+    <main>
+     <section id="Assuntos">
+         </section>
+             <section class="Notícias">
+                <article>
+                    <h2>Artigo legal</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quisquam dicta autem ea voluptates odit veritatis necessitatibus incidunt laudantium, architecto nam facilis voluptate id asperiores minus ullam numquam labore pariatur.</p>
+                    <aside>
+                        <p class="autoria">Artigo escrito por Paulo mira Esteves</p>
+                    </aside>
+                </article>
+                     </section>
+             <section class="Paulão">
+                <article>
+                    <h2>Paulão apelão</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde temporibus deleniti iusto hic culpa dolores distinctio dolorum nobis laudantium nihil voluptatibus ad repellendus atque minus ipsam et, ipsum obcaecati! Laborum!</p>
+                    <aside>
+                        <p class="autoria">Artigo escrito por Paulo mira Esteves</p>
+                    </aside>
+                </article>
+             </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Paulo Mira Esteves</p>
+    </footer>
+</body>
+</html>
