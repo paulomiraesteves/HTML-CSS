@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+:root {
+    --cor1: #2855C7;
+    --cor2: #334E94;
+    --cor3: #0047FA;
+    --cor4: #3A4561;
+    --cor5: #292C33;
+
+    --fonte1: 'Lato', sans-serif;
+    --fonte2: 'Passion One', sans-serif;
+}
+
+body {
+    font-family: var(--fonte1);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+header > h1 {
+    font-size: 2.5em;
+    padding-top: 8px;
+}
+
+header > p {
+    font-size: 1.2em;
+    padding-top: 8px;
+}
+
+nav{
+    text-align: left;
+    padding-top: 15px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 10px;
+}
+
+article {
+    padding: 10px;
+}
+
+article > h2 {
+    font-size: 1.8em;
+}
+
+article > h3 {
+    font-size: 1.4em;
+}
+
+blockquote {
+    text-align: justify;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
